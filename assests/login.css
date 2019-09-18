@@ -1,0 +1,13 @@
+.vertical-align-content {
+    padding: 30px;
+    padding-top: 100px;
+
+    float: right; 
+    width: 35%;
+    height: 100vh;
+
+  }
+
+.active{
+  border: 0 !important;
+}
