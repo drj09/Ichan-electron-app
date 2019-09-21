@@ -1,4 +1,37 @@
-.but2{
-    background-color: red !important;
-    margin-top: 10px !important;
+
+
+.active{
+    border-color: #0abf35 !important;
+}
+
+.item{
+    padding: 10px !important;
+    
+} 
+
+.vibes{
+    font-family: 'Vibes', cursive;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    margin: 0 !important;
+}
+
+p{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    line-height: 1 !important;
+}
+
+.container {
+    background-color: #1d1c22;
+    padding: 20px; 
+   }
+
+.column{
+    padding-left: 0% !important;
+    padding-right: 7px !important;
 }
