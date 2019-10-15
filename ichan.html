@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assests/Semantic-UI/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="assests/ichan.css">
 
-   
+
     <title>Document</title>
 </head>
 
@@ -44,13 +44,13 @@
             <div class="container" style="padding: 10px;border-radius: 50px;">
                 <div class="ui grid">
                     <div class="four wide column">
-                        <p class="montserrat" style="font-size: 20px;text-align: center;">08:30 PM</p>
+                        <p class="montserrat" id='time' style="font-size: 20px;text-align: center;">08:30 PM</p>
                     </div>
                     <div class="eight wide column">
-                        <p class="montserrat" style="font-size: 20px;text-align: center;">Friday, June 1 ,2020</p>
+                        <p class="montserrat" id='date' style="font-size: 20px;text-align: center;">Friday, June 1 ,2020</p>
                     </div>
                     <div class="four wide column">
-                        <p class="montserrat " style="font-size: 20px;text-align: center;">Delhi,India</p>
+                        <p class="montserrat " id='location' style="font-size: 20px;text-align: center;">Delhi,India</p>
                     </div>
                 </div>
             </div>
@@ -65,42 +65,85 @@
                             </div>
                             <div class="row" style="height: 50%;">
                                 <p class="vibes" style="font-size: 20px;text-align: center;">Thunderstorm</span></p>
-                                <p class="vibes" style="font-size: 100px;text-align: center">28<sup>&deg</sup>C</span></p>
+                                <p class="vibes" style="font-size: 100px;text-align: center">28<sup>&deg</sup>C</span>
+                                </p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="five wide column">
-                        <div class="container" style="padding-top: 0px;height: 50%">
-                            
-                        </div>
-                        <div class="container" style="margin-top: 20px;;padding-top: 20px;height: 50%">
-                                <div class="row" style="height: 50%;background-color: red;">
-                                    asdass
+                    <div class="eleven wide column">
+                        <div class="container" style="padding: 5px;height: 75px">
+                            <div class="ui horizontal segments"
+                                style="margin:0;background-color: transparent;height: 100%;">
+                                <div class="ui segment" style="padding: 5px;padding-left: 5px;padding-right: 5px;">
+                                    <div class="ui label"
+                                        style="width: 100%;height: 50px;padding: 0;background-color: transparent">
+                                        <img class="ui right avatar massive image" style="width: 550px; height: auto"
+                                            src="https://img.icons8.com/dusk/100/000000/humidity.png">
+                                        <span class="montserrat"
+                                            style="font-size: 15px;color: white;margin-left: 10px;"> 7 Km/hr NW </span>
+                                    </div>
                                 </div>
-                                <div class="row" style="height: 50%;background-color: purple">
-                                    
-    
+                                <div class="ui segment" style="padding: 5px;padding-left: 5px;padding-right: 5px;">
+                                    <div class="ui label"
+                                        style="width: 100%;height: 50px;padding: 0;background-color: transparent">
+                                        <img class="ui right avatar massive image" style="width: 550px; height: auto"
+                                            src="https://img.icons8.com/dusk/100/000000/humidity.png">
+                                        <span class="montserrat"
+                                            style="font-size: 15px;color: white;margin-left: 10px;"> 7 Km/hr NW </span>
+                                    </div>
+                                </div>
+                                <div class="ui segment" style="padding: 5px;padding-left: 5px;padding-right: 5px;">
+                                    <div class="ui label"
+                                        style="width: 100%;height: 50px;padding: 0;background-color: transparent">
+                                        <img class="ui right avatar massive image" style="width: 550px; height: auto"
+                                            src="https://img.icons8.com/dusk/100/000000/humidity.png">
+                                        <span class="montserrat"
+                                            style="font-size: 15px;color: white;margin-left: 10px;"> 7 Km/hr NW </span>
+                                    </div>
+                                </div>
+                                <div class="ui segment" style="padding: 5px;padding-left: 5px;padding-right: 5px;">
+                                    <div class="ui label"
+                                        style="width: 100%;height: 50px;padding: 0;background-color: transparent">
+                                        <img class="ui right avatar massive image" style="width: 550px; height: auto"
+                                            src="https://img.icons8.com/dusk/100/000000/humidity.png">
+                                        <span class="montserrat"
+                                            style="font-size: 15px;color: white;margin-left: 10px;"> 7 Km/hr NW </span>
+                                    </div>
                                 </div>
                             </div>
-                    </div>
-                    <div class="six wide column">
-                        
+                        </div>
+                        <div class="ui horizontal segments" style="margin-top: 7px;width:100%;height: 180px;background-color: transparent">
+                            <div class="ui segment" style="padding: 0px;margin-right: 5px;">
+                                <div class="container" style="width: 100%;height: 180px;padding: 10px;">
+                                    <div style="background-color: red;height: 50%">sdasd</div>
+                                    <div style="background-color: red;height: 50%">sdasd</div>
+                                </div>
+                            </div>
+                            <div class="ui segment" style="padding: 0px;margin-right: 5px;">
+                                <div class="container" style="width: 100%;height: 180px">
+                                        <canvas id="donult" style="max-height: 100%;max-width: 250px;"></canvas>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="ui segment" style="padding: 0px;">
+                                <div class="container" style="width: 100%;height: 180px"></div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="row" style="margin-top: 20px;">
-                    <div class="twelve wide column">
-                        <div class="container">
-                            <canvas style="max-height: 250px;" id="myChart"></canvas>
-                        </div>
+                <div class="row" style="padding: 0px;height: 300px;margin-top: 35px;    ">
+                    <div class="container sixteen wide column" style="height: 100%;padding: 20px;">
+                            <div id="chart"></div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="ui tab" data-tab="second">
-            
-            
+            Second
         </div>
         <div class="ui tab " data-tab="third">
             Third
@@ -112,14 +155,13 @@
 
 
     <script>window.$ = window.jQuery = require("jQuery");</script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assests/Semantic-UI/semantic.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="assests/api_js/date.js"></script>
     <script src="ichan.js"></script>
-    
+
 </body>
 
 </html>
