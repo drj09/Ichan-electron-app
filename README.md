@@ -1,4 +1,4 @@
-#Ichan — Desktop application with a dedicated api server       
+# Ichan — Desktop application with a dedicated api server       
 Environment : NodeJs,Electron Js,Flask
 Languages : JavaScript,Python
 Databases : Firebase real-time database(server),Electron-db (client)
