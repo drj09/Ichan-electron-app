@@ -1,6 +1,8 @@
 # Ichan — Desktop application with a dedicated api server       
 Environment : NodeJs,Electron Js,Flask
+
 Languages : JavaScript,Python
+
 Databases : Firebase real-time database(server),Electron-db (client)
 
 Project Description : Desktop application to fetch weather information, current news feeds, cricket scores from a dedicated JWT-authenticated rest-api server developed on flask. Server sync data between different modules , firebase-admin-sdk, and Ichan application.
