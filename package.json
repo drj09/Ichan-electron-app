@@ -10,7 +10,7 @@
   "author": "Nirmohi_officials",
   "license": "ISC",
   "dependencies": {
-    "electron": "^6.0.9",
+    "electron": "^11.5.0",
     "electron-db": "^0.15.2",
     "jquery": "^3.5.0",
     "jsdom": "^15.1.1"
